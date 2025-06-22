@@ -1,9 +1,9 @@
 # Create ACM Certificate with SANs
 /*resource "aws_acm_certificate" "cert" {
-  domain_name               = "devops4solutions.com"
+  domain_name               = "srimanth.com"
   subject_alternative_names = [
-    "*.devops4solutions.com",
-    "*.dev.devops4solutions.com",
+    "*.srimanth.com",
+    "*.dev.srimanth.com",
   ]
   validation_method         = "DNS"
 
