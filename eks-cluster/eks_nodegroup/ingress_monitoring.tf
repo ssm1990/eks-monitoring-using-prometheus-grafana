@@ -28,7 +28,7 @@ resource "kubectl_manifest" "prometheus_ingress" {
     spec = {
       ingressClassName = "alb"
       rules = [{
-        host = "prometheus.devops4solutions.com"
+        host = "prometheus.srimanth.com"
         http = {
           paths = [{
             path     = "/"
@@ -68,7 +68,7 @@ resource "kubectl_manifest" "grafana_ingress" {
     spec = {
       ingressClassName = "alb"
       rules = [{
-        host = "grafana.devops4solutions.com"
+        host = "grafana.srimanth.com"
         http = {
           paths = [{
             path     = "/"
